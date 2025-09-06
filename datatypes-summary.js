@@ -13,7 +13,7 @@ let userEmail= undefined
 const id = Symbol('123')
 const bigNum = 234567888776652n
 
-
+//summary
 
 // reference (non primitive) : Arrays , objects , functions   //typeof functions
 
