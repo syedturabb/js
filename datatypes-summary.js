@@ -28,3 +28,8 @@ const myFunc = function(){
      console.log("hello world");     
 }
 
+// ==============================================
+
+//stack : primitive , heap : non primitive
+
+let myYt = "ho"    //push pop 
