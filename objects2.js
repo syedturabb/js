@@ -3,7 +3,6 @@
 const tinder = {}                 //non singleton obj
 // console.log(tinder);
 
-
 // tinder.id= "abc123"
 // tinder.name= "ali"
 // tinder.isLgged= false
@@ -31,3 +30,39 @@ const users={
     name: "usman",
     age: 21
 }
+
+const course = {
+    coursename: "js",
+    price: "999",
+    courseIns: "hitesh",
+}
+// course.courseIns
+
+const {courseIns : ins} = course
+
+// console.log(courseIns);
+console.log(ins);
+
+
+const navbar = ({compnay}) => {
+                                      // object destructing
+}
+
+navbar(compnay = "ali")
+
+
+// {
+//     name: "ali",
+//     price: "free",   // api's through objects 
+
+// }
+
+// {
+//     {},
+//     {},               // apis through arrays
+//     {}
+// }
+
+
+
+
