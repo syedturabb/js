@@ -21,7 +21,7 @@ console.log("Result: ",result);
 
 
 function loginInUser(username){
-    if(username == undefined){
+    if(username === undefined){
         console.log("please enter any name");
         return;
     }
@@ -30,6 +30,30 @@ function loginInUser(username){
 console.log(loginInUser("Turab"));
 
 //if nothing is passed it outputs undefined
+
+
+
+function calculateCarPrice(...num1){ //vest operator
+         return num1;
+}
+
+console.log(calculateCarPrice(200,400,999));
+
+
+const user = {
+    username: "ahmed",
+    price: 1222
+}
+
+function handle(anyobject) {
+    console.log(`usernameis ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+const myNewArray=[200,400,500,600]
+function returnValue(getArray) {
+        return getArray[1]
+}
 
 
 
