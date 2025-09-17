@@ -28,6 +28,12 @@ const chai = function(){
 
 const chai = () => {
     let username = "mmm"
-     console.log(this);
+     console.log(this333);
      
+}
+
+const add = (num1,num2) => num1+num2
+
+const add1 = (num1,num2) => {
+    return num1+num2
 }
