@@ -44,5 +44,5 @@ const addtwo= function(value){
     return value+2
     console.log( );      // console will nt work after return stateent
 
-}
+} 
 console.log(print(19));  // output: 20
