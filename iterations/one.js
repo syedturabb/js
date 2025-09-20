@@ -22,10 +22,28 @@ for (let i = 0; i < 10; i++)
     
 }
 
-
 let myArray = ["flash", "batman", "superman"]
 for (let index = 0; index< myArrayarray.length; index++) {
     const element = myArray[index];
     console.log(element);
+    
+}
+
+// break and continue
+
+
+for(let i =0; i<=20; i++){
+    console.log(`value of i ${i}`);
+    
+    if(i==4){
+        continue;                //continue
+        
+    }
+
+    if(i == 5){
+        console.log("stop searching , we got five");
+        break;
+        
+    }
     
 }
