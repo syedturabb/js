@@ -18,3 +18,17 @@ while(array< arr.length){
     console.log(`value : ${arr[array]}`);
     array++;
 }
+
+
+do {
+    
+} while (condition);
+
+
+let score=12
+do {
+    console.log(`current score is: ${score}`);
+    score++;
+    
+} while (score < 20);
+
