@@ -23,3 +23,28 @@ coding.forEach( (item,index,arr) =>{
      console.log(item,index,arr);
      
 } )
+
+const myCoding = 
+[
+    {
+    languagename: "java",
+    filename: "js"
+
+},
+{
+    languagename: "java",
+    filename: "js"
+    
+},
+{
+    languagename: "java",
+    filename: "js"
+    
+}
+
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languagename);
+    
+})
