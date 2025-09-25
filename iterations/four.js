@@ -16,7 +16,12 @@ const pro = ["js","cpp","rb"]
 
 for (const key in pro) {
    console.log(pro[key]);
-   
-    
+      
 }
+
+
+// arrays for of
+//object for in
+
+
 

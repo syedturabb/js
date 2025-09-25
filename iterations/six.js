@@ -26,10 +26,10 @@ const newNum = mynum.filter((num) => num > 5 )
 
 
 
-let userbooks = book.filter((bk) => bk.publish >= 2000)
-let userbooks = book.filter((bk) => {
-    return bk.genre === 'History' && bk.edition < 2000
-})
+// let userbooks = book.filter((bk) => bk.publish >= 2000)
+// let userbooks = book.filter((bk) => {
+//     return bk.genre === 'History' && bk.edition < 2000
+// })
 
 
 
