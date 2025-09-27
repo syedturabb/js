@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+</head>
+<body style="background-color: #212121;color: #fff;">
+    <ul class="langauge">
+         <li>javascript</li>
+    </ul>
+</body>
+<script>
+function addlang(langname){
+       const li=document.createElement('li')
+       li.innerHTML = `${langname}`
+       document.querySelector('.langauage').
+       appendChild(li)
+}
+addlang("python")
+addlang("ruby")
+
+function addoptilang(langname){
+     const li = document.createElement('li')
+     li.appendChild(document.createTextNode(langname))
+
+})
+</script>
+</html>
